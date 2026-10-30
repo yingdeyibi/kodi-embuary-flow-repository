@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="script.embuary.flow.helper" name="Embuary Flow Helper" version="0.4.0" provider-name="Embuary Flow">
+<addons><addon id="script.embuary.flow.helper" name="Embuary Flow Helper" version="0.4.1" provider-name="Embuary Flow">
   <requires><import addon="xbmc.python" version="3.0.1" /></requires>
   <extension point="xbmc.service" library="service.py" />
   <extension point="xbmc.python.script" library="default.py"><provides>executable</provides></extension>
@@ -9,7 +9,7 @@
     <description lang="en_GB">Kodi 21 navigation and cached ratings. Enables selected subtitles once at video startup while Flow is active. No library writes.</description>
     <platform>all</platform><license>Private use only</license>
   </extension>
-</addon><addon id="skin.embuary.flow.probe" version="0.4.0" name="Embuary Flow Probe (2K)" provider-name="sualfred, Teddyknuddel, Stogie">
+</addon><addon id="skin.embuary.flow.probe" version="0.4.1" name="Embuary Flow Probe (2K)" provider-name="sualfred, Teddyknuddel, Stogie">
 	<requires>
 		<import addon="script.embuary.helper" version="1.3.6" />
 		<import addon="script.embuary.info" version="1.2.4" />
@@ -17,7 +17,7 @@
 		<import addon="plugin.program.autocompletion" version="1.0.1" />
 		<import addon="script.skinshortcuts" version="1.0.17" />
 		<import addon="script.keymap" version="1.3.2" />
-	<import addon="script.embuary.flow.helper" version="0.4.0" /></requires>
+	<import addon="script.embuary.flow.helper" version="0.4.1" /></requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="2560" height="1440" aspect="16:9" default="true" folder="xml" />
 	</extension>
@@ -41,7 +41,7 @@
 			<screenshot>resources/Screenshot-04.jpg</screenshot>
 		</assets>
 	</extension>
-</addon><addon id="script.embuary.flow.installer" name="Flow 安装助手" version="0.1.3" provider-name="Embuary Flow">
+</addon><addon id="script.embuary.flow.installer" name="Flow 安装助手" version="0.4.1" provider-name="Embuary Flow">
   <requires><import addon="xbmc.python" version="3.0.1" /></requires>
   <extension point="xbmc.python.script" library="default.py"><provides>executable</provides></extension>
   <extension point="xbmc.addon.metadata">
